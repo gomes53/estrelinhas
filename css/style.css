@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 { font-size: 60px;}
-h3 { font-size: 54px;}
+h3 { font-size: 35px;}
 h4 { font-size: 32px;}
 h5 { font-size: 21px;}
 h6 { font-size: 18px;}
@@ -63,7 +63,7 @@ ul, li {
 
 a {
 	text-decoration: none; 
-	color: #5dae87;
+	color: #777;
 }
 
 a:hover {
@@ -107,8 +107,8 @@ input[type=text] {
 
 a.button-1, a.button-2, button {
 	color: #fff;
-	background: #5dae87;
-	border: 2px solid #5dae87;
+	background: #777;
+	border: 2px solid #777;
 	border-radius: 999px;
 	margin-top: -2px;
 	margin-left: 10px;
@@ -194,8 +194,8 @@ header#top nav ul li a:hover {
 }
 
 header#top nav ul li a.nav-cta {
-	color: #5dae87;
-	border: 2px solid #5dae87;
+	color: #777;
+	border: 2px solid #777;
 	border-radius: 999px;
 	margin-top: -2px;
 	margin-left: 10px;
@@ -209,6 +209,7 @@ header#top nav ul li a.nav-cta {
 		padding-bottom: 20px;
 	}
 	h1.logo {
+		text-align: center;
 	}
 	header#top nav {
 		float: none;
@@ -231,8 +232,9 @@ header#top nav ul li a.nav-cta {
 /*Banner*/
 
 #banner {
-	height: 840px;
-	background: #f1f6f4 url(../images/header-image.jpg) no-repeat center;
+	height: 600px;
+	background: #f1f6f4 url(../images/background2.png) no-repeat center;
+	/*background: #c8dff4;*/
 	position: relative;
 	padding: 1px 0 0 0;
 }
@@ -265,7 +267,7 @@ header#top nav ul li a.nav-cta {
 
 @media only screen and (max-width: 480px) {
 	#banner h2 {
-		font-size: 32px;
+		font-size: 40px;
 		margin-top: 64px;
 	}
 	#banner p.subtitle {
@@ -275,13 +277,13 @@ header#top nav ul li a.nav-cta {
 
 @media only screen and (max-width: 1024px) {
 	#banner {
-		height: 420px;
+		height: 250px;
 	}
 }
 
 @media only screen and (max-width: 480px) {
 	#banner {
-		height: 400px;
+		height: 250px;
 	}
 }
 
@@ -294,7 +296,7 @@ header#top nav ul li a.nav-cta {
 }
 
 .video-section p.subtitle {
-	color: #5dae87;
+	color: #777;
 	font-size: 17px;
 }
 
@@ -316,7 +318,7 @@ header#top nav ul li a.nav-cta {
 }
 
 .services-section p.subtitle {
-	color: #5dae87;
+	color: #777;
 	font-size: 17px;
 }
 
@@ -362,7 +364,7 @@ ul.services-list li a {
 	font-family: 'Arimo', sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: #5dae87;
+	color: #777;
 }
 
 ul.services-list li a:hover {
@@ -396,7 +398,7 @@ ul.services-list li:last-of-type {
 
 .text-section p.subtitle {
 	text-align: left;
-	color: #5dae87;
+	color: #777;
 	font-size: 17px;
 	margin-bottom: 40px;
 }
@@ -481,7 +483,7 @@ ul.list-checkmarks li {
 /*Features Section*/
 
 .features-section {
-	background: #5dae87;
+	background: #777;
 	padding: 100px 0;
 	color: #fff;
 }
@@ -536,7 +538,7 @@ ul.list-checkmarks li {
 }
 
 .team-section p.subtitle {
-	color: #5dae87;
+	color: #777;
 	font-size: 17px;
 }
 
@@ -600,7 +602,7 @@ ul.social-links li a {
 }
 
 ul.social-links li a:hover {
-	background-color: #5dae87;
+	background-color: #777;
 }
 
 ul.social-links li a.facebook {
@@ -655,7 +657,7 @@ ul.team-list li:last-of-type {
 }
 
 .portfolio-section p.subtitle {
-	color: #5dae87;
+	color: #444;
 	font-size: 17px;
 }
 
@@ -696,7 +698,7 @@ ul.portfolio-list li a:hover {
 /*Email List Section*/
 
 .email-list-section {
-	background: #5dae87;
+	background: #777;
 	padding: 100px 0;
 	color: #fff;
 }
@@ -718,7 +720,7 @@ ul.portfolio-list li a:hover {
 }
 
 .email-list-section input[type=text] {
-	background: #5dae87;
+	background: #777;
 	color: #fff;
 	color: rgba(255, 255, 255, .75);
 	border: 2px solid #eee;
@@ -732,7 +734,7 @@ ul.portfolio-list li a:hover {
 
 .email-list-section button {
 	background: #fff;
-	color: #5dae87;
+	color: #777;
 	margin: 10px 5px;
 }
 
@@ -745,13 +747,16 @@ ul.portfolio-list li a:hover {
 }
 
 .pricing-section p.subtitle {
-	color: #5dae87;
+	color: #777;
 	font-size: 17px;
 }
 
 ul.pricing-table {
 	width: 90%;
 	margin: 100px auto 60px;
+	display: flex;
+  justify-content: center; /* centra na horizontal */
+  align-items: center; 
 }
 
 ul.pricing-table li {
@@ -774,6 +779,7 @@ ul.pricing-table li:hover {
 	position: relative;
 	width: 200px;
 	margin: 0 auto;
+	/*background-color: #c8dff4;*/
 }
 
 .price-container .currency-symbol {
@@ -800,7 +806,7 @@ ul.pricing-table li a {
 	font-family: 'Arimo', sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: #5dae87;
+	color: #777;
 }
 
 ul.pricing-table li a:hover {
@@ -821,7 +827,7 @@ ul.pricing-table ul.features {
 
 ul.pricing-table .button-1 {
 	color: #fff;
-	border-color: #5dae87;
+	border-color: #777;
 }
 
 ul.pricing-table .button-2 {
@@ -848,7 +854,7 @@ ul.pricing-table ul.features li {
 	font-family: 'Arimo', sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: #bbb;
+	color: #444;
 }
 
 ul.pricing-table ul.features li:hover {
@@ -858,10 +864,19 @@ ul.pricing-table ul.features li:hover {
 @media only screen and (max-width: 960px) {
 	ul.pricing-table li {
 		display: block;
-		width: 100%;
-		margin: 20px 0!important;
+		width: 90%;
+		
 	}
 }
+
+@media only screen and (max-width: 960px) {
+.price-container .price {
+	font-size: 55px;
+}
+}
+
+
+
 
 /*Footer*/
 
@@ -878,11 +893,11 @@ footer a.logo {
 	float: left;
 	color: #fff;
 	text-indent: -4999px;
-	background: url(../images/logo-footer.png) no-repeat;
+	background: url(../images/logov2.png) no-repeat;
 	margin: 0 0 0 40px;
 	padding: 0 0 40px 0;
-	width: 56px;
-	height: 74px;
+	width: 150px;
+	height: 100px;
 }
 
 footer .footer-left {
@@ -919,7 +934,7 @@ footer .footer-links a {
 }
 
 footer .footer-links a:hover {
-	color: #5dae87;
+	color: #777;
 }
 
 footer .footer-links a:first-of-type {
@@ -940,7 +955,7 @@ footer .footer-right a.social {
 }
 
 footer .footer-right a.social:hover {
-	background-color: #5dae87;
+	background-color: #777;
 }
 
 footer a.social.facebook {
@@ -972,4 +987,90 @@ footer a.social.google {
 		margin: 0 5px!important;
 		font-size: 14px;
 	}
+}
+
+
+#navigation li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+#navigation a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+#navigation a:hover {
+  color: #f4c2d9; /* ou a cor que quiseres */
+}
+
+#navigation svg {
+  vertical-align: middle;
+}
+
+
+
+
+
+/* garante que o header pode posicionar o menu absoluto */
+header#top { position: relative; }
+
+/* botão escondido em desktop */
+.menu-toggle { display: none; background: none; border: 0; cursor: pointer; }
+
+/* mobile */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    font-size: 30px;
+    color: #333;
+    position: absolute;
+    right: 0px;
+    top: 22px;
+    z-index: 60;
+	width: fit-content;
+  }
+
+  /* escondemos o nav por padrão no mobile */
+header#top nav.main-nav {
+  display: none !important;
+  position: absolute;
+  right: 0;   /* encosta à direita */
+  top: 100%;
+  width: 220px; /* defina a largura que quiser */
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  z-index: 50;
+  width: fit-content;
+}
+
+  /* quando activo mostrar */
+  header#top nav.main-nav.active {
+    display: block !important;
+  }
+
+ #navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* encosta à direita */
+  padding: 12px 0;
+}
+
+#navigation li {
+  width: 100%;
+  text-align: right; /* alinha texto à direita */
+  border-top: 1px solid #eee;
+  margin: 0;
+}
+
+  #navigation li a {
+    display: block;
+    padding: 14px 0;
+    font-size: 18px;
+    color: #444;
+  }
+
+  /* ícone Instagram ligeiramente redimensionado */
+  #navigation li:last-child a i { font-size: 20px; }
 }

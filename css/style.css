@@ -314,7 +314,7 @@ header#top nav ul li a.nav-cta {
 .services-section {
 	text-align: center;
 	padding: 100px 0;
-	background: #f9f9f9;
+	background: #fff;
 }
 
 .services-section p.subtitle {
@@ -344,7 +344,7 @@ ul.services-list li .image-container {
 	width: 100px;
 	height: 100px;
 	margin: 0 auto 40px auto;
-	background: #f9f9f9;
+	background: #fff;
 	border-radius: 999px;
 	position: relative;
 }
@@ -534,7 +534,7 @@ ul.list-checkmarks li {
 .team-section {
 	text-align: center;
 	padding: 100px 0;
-	background: #f9f9f9;
+	background: #fff;
 }
 
 .team-section p.subtitle {
@@ -743,7 +743,7 @@ ul.portfolio-list li a:hover {
 .pricing-section {
 	text-align: center;
 	padding: 100px 0;
-	background: #f9f9f9;
+	background: #fff;
 }
 
 .pricing-section p.subtitle {
